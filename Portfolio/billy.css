@@ -1,0 +1,39 @@
+* {
+    color:red;
+}
+p {
+    color:black;
+}
+#navigation{
+    background-color: black;
+    padding:10px;
+}
+a{
+    color:white;
+}
+html,
+body{
+    background-color:rgb(237,224,166);
+    width:100%;
+    margin:0;
+}
+main{
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/*Class selectors start with dot*/
+.main_text{
+padding-left:20px;
+padding-right:20px;
+text-align:justify;
+}
+@font-face{
+    font-family:'Copperplate Gothic Light'
+    
+}
+body{
+    background-image:url("./img/GrassSamp1.jpg");
+    background-repeat:repeat;
+    background-size:200px;
+}
