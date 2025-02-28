@@ -1,0 +1,36 @@
+/* 
+
+* {
+    color:red;
+}
+ */
+
+p {
+    color: black;
+}
+
+#navigation {
+    background-color: black;
+    padding: 10px;
+}
+
+a {
+    color:white;
+}
+
+html,
+body,
+nav {
+    background-color: rgb(237, 224, 166);
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width :400px;
+    margin-left: auto;
+    margin-right: auto;
+    border :2px solid black;
+}

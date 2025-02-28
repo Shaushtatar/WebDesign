@@ -1,0 +1,86 @@
+<!--File 2-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation</title>
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>
+
+    <!-- Include Textillate.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"></script>
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css"/-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/2.1.1/animate.min.css"/>
+
+    <!-- font customization css properties: https://www.w3schools.com/css/css3_shadows.asp -->
+     
+</head>
+
+<body>
+    <style>
+        html,
+        body {
+            background-image: url("./img/over9000-vegeta.gif");
+            background-size: cover;
+            /*
+            I used this source as help
+            https://stackoverflow.com/questions/49502452/how-do-i-make-my-background-image-fit-the-entire-screen-css
+            because I didn't remember how to fit the background
+            image to my screen.
+            */
+            color: rgb(255, 89, 0);
+            text-align: center;
+            height: 100%;
+            margin: 0;
+        }
+        h1 {
+            margin: 0;
+        }
+
+        .asset-regular {
+            font-family: "Mouse Memoirs", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        #target {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+
+    <h1 id="target" class="asset-regular">It's Over Nine Thousand!</h1>
+    
+
+<script>
+    // Initialize Textillate.js
+    $('#target').textillate({
+        in: {
+            effect: 'shake', // Animation effect for text appearing
+            delayScale: 1, // Delay scale for each character
+            delay: 80, // Delay in milliseconds between each character
+            shuffle: false // Shuffle the character animation order
+        },
+        out: { 
+            effect: 'flipOutX' , // Animation effect for text appearing
+            delayScale: 1, // Delay scale for each character
+            delay: 80, // Delay in milliseconds between each character
+            shuffle: false // Shuffle the character animation order
+        }, // Animation effect for text disappearing
+        loop: true // Loop the animation
+    });
+</script>
+
+</body>
+
+</html>
