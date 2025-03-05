@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- BEGIN fixed navabr -->
+      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">JM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- END fixed navbar -->
+
+<!-- BEGIN Main Content -->
+<main class="container pt-5" id="mainContainer">
+<div class="row pt-5">
+    <h1 id="page-title">Jacopo Mazzoni&apos;s Resume</h1>
+</div>
+<!-- photo and info -->
+<div class="row"> 
+    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+        <img src="./face.jpg" class="img-fluid" alt="my face">
+    </div>
+    <div class="col ">
+        <div class="row align-items-center">
+        <p>my email: jmazzoni@binghamton.edu</p>
+        <p> i'm a computer wizard from mars with tiger blood</p>
+    </div>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <h2>Education</h2>
+    <ul>
+        <li>MFA in fine arts</li>
+        <li>BFA in digital art</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- BEGIN skill sliders -->
+<div class="row">
+
+    <h2>Skills</h2>
+    <div class="col-12 col-sm">
+      <p>HTML</p>
+
+        <div  class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div id="htmlSkill" class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+          </div>
+          <p>Python</p>
+
+          <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div id="pythonSkill" class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+          </div>
+          <p>C++</p>
+
+          <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div id="cppSkill" class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+          </div>
+    </div>
+
+    <div class="col-12 col-sm">
+        <p>HTML</p>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+          </div>
+          <p>Python</p>
+          <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+          </div>
+          <p>C++</p>
+          <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+          </div>
+    </div>
+</div>
+<!-- END skills sliders -->
+
+
+<!-- BEGIN Carousel -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/everest.jpg" class="d-block " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/forest.jpg" class="d-block " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/palm.jpeg" class="d-block " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- END Carousel -->
+
+<!-- BEGIN dummy text -->
+<div class="row">
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt est in nunc laoreet egestas. Maecenas iaculis dapibus leo gravida consequat. Nulla lacinia cursus orci, a porta tortor rutrum convallis. Phasellus diam risus, sodales et rutrum sit amet, laoreet a eros. Donec non porta tortor. Integer quis purus pulvinar, mollis massa in, gravida nisi. Cras in enim quis purus condimentum vestibulum. Praesent non fermentum sem. Mauris consequat ullamcorper rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis vitae porta orci, nec sodales urna. Proin porta placerat nulla, non tempus mi posuere sit amet. Vestibulum id leo lectus. Phasellus maximus metus ac aliquet accumsan. Proin sollicitudin purus dolor, vel imperdiet augue gravida ut. Donec elementum arcu ligula, id tristique nisl sollicitudin sit amet.
+
+Etiam efficitur lacus sed dolor iaculis tincidunt. In cursus mollis est, et suscipit quam placerat quis. Pellentesque posuere rutrum quam, ut egestas felis commodo non. Vestibulum ac tellus aliquam, tristique risus ut, pharetra elit. Donec placerat dictum ipsum, ut commodo ex feugiat hendrerit. Cras efficitur leo nec nisi varius venenatis. Morbi viverra rutrum nisi, at eleifend mauris gravida sit amet.
+
+Sed sed tristique sem. Mauris venenatis mauris euismod, condimentum erat et, aliquam diam. Cras tempor libero quis ex suscipit egestas. In consequat condimentum diam. Praesent fermentum lobortis urna sed luctus. Aenean sodales, orci ut aliquam tempus, felis dolor commodo tellus, eu ullamcorper ipsum nisi sit amet lectus. Proin in dolor ullamcorper, fermentum diam at, imperdiet nunc. Proin semper in sem id dapibus. Nam viverra rhoncus libero quis consectetur. Nulla volutpat quam in purus aliquet efficitur. Aliquam et rhoncus velit. Ut at elit accumsan, ultrices diam euismod, rutrum diam.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas ut molestie justo, et eleifend ex. In id interdum quam. Morbi convallis mi nulla, eu placerat libero blandit id. Donec urna felis, luctus dignissim sagittis vitae, tincidunt a enim. Integer vestibulum laoreet felis sit amet euismod. Donec vehicula orci sed arcu convallis tempus in quis urna. Sed eu sagittis enim. Vestibulum in hendrerit risus. Ut mollis id tortor a auctor. Quisque ut arcu tincidunt, convallis massa in, volutpat mi. Donec interdum ut erat id elementum. Donec vel est pulvinar, congue elit a, efficitur magna.
+
+Quisque suscipit metus vel eros varius posuere. Vestibulum eget odio nisi. Pellentesque at tristique ante. Integer finibus, nisl nec semper porttitor, felis quam luctus ipsum, at fringilla ex ipsum non nisi. Aenean vulputate est a elit sodales sollicitudin. Vivamus finibus erat iaculis lobortis venenatis. Aenean erat enim, rutrum et lacinia in, suscipit ut massa.
+
+Quisque et ex risus. Fusce id sapien aliquam, iaculis enim ac, ornare purus. Ut ultricies sodales sem eget interdum. Nullam ac orci et mi iaculis pellentesque non laoreet erat. In mollis a eros a ornare. Vestibulum id nisi ac odio tempor rhoncus. Vestibulum quis nisi sagittis risus interdum aliquet at in lacus. Fusce pretium sodales nisi eu eleifend.
+
+Morbi imperdiet pharetra libero, sit amet tristique justo suscipit non. Mauris nec nunc tellus. Etiam at ligula a eros faucibus egestas. Vestibulum volutpat aliquet finibus. Duis arcu lacus, tincidunt nec consectetur quis, ullamcorper non diam. In sagittis bibendum lectus eget volutpat. Duis facilisis semper lorem sed eleifend. Proin vitae consectetur diam. Etiam ligula felis, bibendum eget leo sit amet, euismod tincidunt magna. Proin non laoreet massa.
+
+Etiam interdum nec turpis eu semper. Donec iaculis ultricies neque et euismod. Curabitur et elit non est sollicitudin pharetra. Vestibulum sed eros eu tellus euismod sodales sit amet tincidunt orci. Integer dapibus rutrum enim ac dapibus. Phasellus commodo viverra lorem ut blandit. Morbi ullamcorper non libero et pulvinar. Nam bibendum orci non ultricies lobortis. Maecenas eget nisi vel turpis eleifend rutrum ultricies in tortor. Aenean tempus ligula a consectetur commodo. Vivamus vel ornare ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum suscipit arcu, hendrerit iaculis ante mattis et.
+
+Mauris congue justo erat, at ultrices nisi ullamcorper ut. Pellentesque sollicitudin tincidunt enim ac viverra. Donec laoreet felis sed finibus ornare. Etiam faucibus justo ut semper cursus. Mauris venenatis porttitor turpis sit amet consectetur. Etiam ante sapien, bibendum sed metus vitae, feugiat convallis erat. Duis lobortis lectus sed neque tristique, a dictum odio imperdiet. Quisque sagittis diam non eros accumsan blandit. Aenean scelerisque efficitur mauris id sollicitudin. Sed sed neque erat. Vivamus scelerisque mauris elit, eu volutpat tortor lacinia et. Aliquam sodales mauris ac mauris egestas, id lobortis lectus dictum. In hac habitasse platea dictumst.
+
+Curabitur pulvinar libero quam, imperdiet placerat mauris rhoncus vitae. Proin felis felis, malesuada ut mi sodales, cursus consectetur enim. Morbi ex urna, aliquet eu elit non, rutrum malesuada eros. Pellentesque eleifend, ipsum et fermentum molestie, ante nisi finibus felis, vitae aliquet turpis mauris lacinia felis. Sed ut luctus mi. Mauris sodales malesuada felis, id rutrum odio. Vivamus pharetra risus sed lacus imperdiet, ac molestie purus aliquet. Sed et lectus nulla. Aliquam venenatis non arcu ac tristique. Donec et massa lacus. Integer convallis elementum libero at faucibus. Donec ultrices augue urna, sit amet auctor massa faucibus vitae. Aliquam erat volutpat. Morbi fermentum, tellus quis placerat suscipit, augue velit ultricies nunc, vitae fermentum nunc mi suscipit ante.
+</p>
+</div>
+ <!-- END dummy text -->
+
+
+ <a href="#mainContainer" class="btn btn-outline-primary"> BUTTON - LINK</a>
+
+</main>
+<!-- END Main Content -->
+
+
+
+<!-- BEGIN footer -->
+ <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container px-0">
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #6351ce"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Company name</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">MDBootstrap</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">MDWordPress</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">BrandFlow</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Bootstrap Angular</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >MDBootstrap.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</div>
+<!-- End of .container -->
+<!-- END footer -->
+
+
+
+</body>
+<script src="./bootstrap.bundle.min.js"></script>
+</html>

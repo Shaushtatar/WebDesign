@@ -1,0 +1,45 @@
+main {
+    border: 1px black solid;
+    background-color:  rgb(226, 253, 251);
+}
+
+html,body {
+    background-image: url("./texture.webp");
+    background-size: 150px;
+}
+
+.carousel-item img {
+    margin:auto;
+    height: 500px;
+  }
+
+
+  .carousel-caption{
+    background-color: rgba(0,0,0,.3);
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-color: rgba(0,0,0,.3);
+  }
+
+
+  .progress {
+    background-color:white;;
+  }
+
+  .progress-bar {
+    background-color:gray;
+  }
+
+  #htmlSkill {
+    background-color: chartreuse;
+  }
+
+  #pythonSkill{
+    background-color: blueviolet;
+  }
+
+  #cppSkill {
+background-color: cadetblue;
+  }
