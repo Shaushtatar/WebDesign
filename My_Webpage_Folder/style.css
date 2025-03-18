@@ -1,18 +1,16 @@
 
-
+*{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 main {
     border: 2px rgb(123, 0, 255) solid;
-    background-color:  rgb(221, 199, 255);
+    background-color:  rgba(56, 36, 83,.75);
+    color:azure
 }
 
 html,body {
-    background-image: url("./img/background.png");
+    background-image: url("./img/pixel_background.jpg");
     background-size: 150px;
-}
-
-.navbar
-{
-  background-color:blue
 }
 
 .carousel-item img {
@@ -40,16 +38,16 @@ html,body {
   }
 
   #htmlSkill {
-    background-color: rgb(246, 25, 25);
+    background-color: rgb(255, 24, 243);
   }
 
   #pythonSkill{
-    background-color: rgb(255, 160, 59);
+    background-color: rgb(49, 240, 84);
   }
 
   #rskill {
 background-color: rgb(35, 89, 213);
   }
   #jsskill {
-    background-color: rgb(129, 0, 0);
+    background-color: rgb(188, 8, 38);
   }
