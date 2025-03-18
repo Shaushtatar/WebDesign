@@ -5,7 +5,11 @@
 main {
     border: 2px rgb(123, 0, 255) solid;
     background-color:  rgba(56, 36, 83,.75);
-    color:azure
+    color:azure;
+  
+}
+h1,h2{
+  font-family: 'Colonna MT', 'serif';
 }
 
 html,body {
