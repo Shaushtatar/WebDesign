@@ -10,13 +10,17 @@ main {
 }
 h1,h2{
   font-family: 'Colonna MT', 'serif';
+  padding-left:20px;
 }
 
 html,body {
     background-image: url("./img/pixel_background.jpg");
     background-size: 150px;
 }
-
+.row{
+  padding-left:20px;
+  padding-right:20px;
+}
 .carousel-item img {
     margin:auto;
     height: 500px;
