@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Apollo 11 Launch",
+      "date": "July 16, 1969",
+      "description": "Apollo 11 was launched from Kennedy Space Center aboard a Saturn V rocket.",
+      "image": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F14_625.jpg",
+      "link": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F14_625.jpg"
+    },
+    {
+      "title": "Translunar Injection",
+      "date": "July 16, 1969",
+      "description": "The spacecraft performed a maneuver to set it on course toward the Moon.",
+      "image": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F23_625.jpg",
+      "link": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F23_625.jpg"
+    },
+    {
+      "title": "Entering Lunar Orbit",
+      "date": "July 19, 1969",
+      "description": "Apollo 11 entered the Moon's orbit after traveling approximately 240,000 miles.",
+      "image": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F34_625.jpg",
+      "link": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F34_625.jpg"
+    }
+  ]
+  

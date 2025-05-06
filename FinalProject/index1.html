@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>P3 Boilerplate</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- GSAP + Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- timeline js -->
+    <script src="./timeline.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery + Lettering + Textillate -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"></script> 
+
+    <!--Particles js-->
+    <script src="./particles.js-master/particles.js"></script>
+    <!--Using this documentation to navigate this library: https://github.com/VincentGarreau/particles.js/ -->
+    
+
+    
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" class="scrollspy-example">
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sections</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Nav links -->
+                    <li class="nav-item"><a class="nav-link" href="#section1">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section2">Section 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section3">Section 3</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section4">Section 4</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section5">Section 5</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section6">Section 6</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section7">Section 7</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section8">Section 8</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section9">Section 9</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Sections -->
+    <main class="container-fluid p-0">
+
+        <!-- Section 1 (Column layout) -->
+                <section id="section1" class="slide">
+                
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-lg-6 text-center">
+                            <div class="title"><span class="material-icons">home</span> The AI Revolution</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Section 2 ) -->
+        <section id="section2" class="slide">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="title">Overview</div>
+                        <p class="paragraph">Unprecedented advances in artificial intelligence have left the world in a state of uncertainty. It's left people with many questions, that the data can help us answer.</p>
+                        <li>Can AI replace human workers?</li>
+                        <li>How is AI impacting the Education System?</li>
+                        <li>What careers have suffered from the AI Boom?</li>
+                        <li>How have the uses of AI changed?</li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 (Column) -->
+        <section id="section3" class="slide">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6 text-center">
+                        <p class="paragraph">Throughout the 2010s, advances occured in Artificial Intelligence research that were largely confined to the realm of fascination.
+                        </p>
+                        <br>
+                        <p class="paragraph">
+                            All of the sudden, a paradigm shift occured. The start of this change corresponds to the <b>release of ChatGPT in November 2022</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 (graph) -->
+        <section id="section4" class="slide">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <div class="title"><span class="material-icons">star</span> AI Search Trends</div>
+                        <div class="mt-4"><canvas id="graph1" height="200"></canvas></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5 (Row) -->
+        <section id="section5" class="slide">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <div class="title"><span class="material-icons">visibility</span>The AI Arms Race</div>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="paragraph">The rapid development in AI has resulted in an <a href="https://en.wikipedia.org/wiki/Artificial_intelligence_arms_race">artificial intelligence arms race between world powers</a>, namely the United States and China.</p>
+                        <img src="AIArmsRace.jpg" alt="List of firms from US and China involved in the AI Arms Race" class="uncontained-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6 (Column) -->
+        <section id="section6" class="slide">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <div class="title"><span class="material-icons">lightbulb</span>Rising AI Competence</div>
+                        <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="dellacquagraph.png" class="d-block " alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Workplace Performance of Teams with and without AI</h5>
+                                  <p>From Dell'Acqua et al. (2025)</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="AIprogress.jpg" class="d-block " alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Progress of AIs in performing tasks</h5>
+                                  <p>Source: TIME Magazine, ContextualAI</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="nunAI.jpg" class="d-block " alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Progression of Midjourney Image Generation</h5>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Section 7 (Column) -->
+        <section id="section7" class="slide">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <div class="title"><span class="material-icons">alarm</span>Other Impacts of AI</div>
+                                        <!-- interactive bubbles -->
+                        <div class="bubbles-container">
+                            <div class="bubble" id="bubble1" onclick="showInfo('bubble1')">AI in Schools</div>
+                            <div class="bubble" id="bubble2" onclick="showInfo('bubble2')">AI Art</div>
+                            <div class="bubble" id="bubble3" onclick="showInfo('bubble3')">Personal AI Use</div>
+                        </div>
+        
+                        <div id="info-box" class="info-box">
+                            <h3 id="info-title"></h3>
+                            <p id="info-description"></p>
+                            <a id="info-link"><span class="material-icons">link</span></a>
+                        </div>
+            </div>
+        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 8 (Row) -->
+
+
+        <!-- Section 9 (Chart) -->
+        <section id="section9" class="slide">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <div class="title"><span class="material-icons">bar_chart</span> AI and Productivity</div>
+                        <div class="mt-4"><canvas id="myChart" height="200"></canvas></div>
+                    </div>
+                    <a href="https://mit-genai.pubpub.org/pub/v5iixksv/release/2">Source</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--Timeline-->
+    <section id="section11" class="timeline-container">
+        <div class="timeline-line"></div>
+        <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section id="BacktoStart" class="final">
+        <div class="container">
+            <div class="row align-items-center">
+                
+                <div id="particles-js"></div>
+                <a href="#" class="btn btn-outline-primary"> Back to Top</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-1">&copy; 2025 William Harris</p>
+            <p class="mb-0 small">Made in DiDa 280W</p>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        // textillate setup
+        let tlt = $('.tlt');
+        tlt.textillate({ in: { effect: 'flash' },out: { effect: 'fadeOutDown' }, autoStart: false });
+
+
+        ScrollTrigger.create({
+            trigger: "#section1 .row",
+            start: "top 80%",
+            
+            onEnter: () => {
+                tlt.textillate('in');
+                gsap.fromTo("#section1 .row", { opacity: 0, y: 100 }, { opacity: 1, y: 0, duration: 1, ease: "power2.out" });
+            },
+            onLeave: () => {
+                tlt.textillate('out');
+                gsap.fromTo("#section1 .row", { opacity: 1, y: 0 }, { opacity: 0, y: 100, duration: 1, ease: "power2.out" });
+            },
+            onEnterBack: () => {
+                tlt.textillate('in');
+                gsap.fromTo("#section1 .row", { opacity: 0, y: 100 }, { opacity: 1, y: 0, duration: 1, ease: "power2.out" });
+            },
+            onLeaveBack: () => {
+                tlt.textillate('out');
+                gsap.fromTo("#section1 .row", { opacity: 1, y: 0 }, { opacity: 0, y: 100, duration: 1, ease: "power2.out" });
+            }
+        });
+
+        
+        ScrollTrigger.create({
+            trigger: "#section2 .row",
+            start: "top 80%",
+            onEnter: () => {gsap.fromTo("#section2 .row", { opacity: 0, x: -100 }, { opacity: 1, x: 0, duration: 1, ease: "power2.out" }),
+            gsap.fromTo("#section2 li", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out", stagger: 0.2, delay: 0.5 });
+            },
+            onLeaveBack: () => gsap.fromTo("#section2 .row", { opacity: 1, x: 0 }, { opacity: 0, x: -100, duration: 1, ease: "power2.out" })
+        });
+        
+        ScrollTrigger.create({
+            trigger: "#section3 .row",
+            start: "top 80%",
+            onEnter: () => gsap.fromTo("#section3 .row", { opacity: 0, x: 100 }, { opacity: 1, x: 0, duration: 1, ease: "power2.out" }),
+            onLeaveBack: () => gsap.fromTo("#section3 .row", { opacity: 1, x: 0 }, { opacity: 0, x: 100, duration: 1, ease: "power2.out" })
+        });
+
+        ScrollTrigger.create({
+            trigger: "#section4 .row",
+            start: "top 80%",
+            onEnter: () => gsap.fromTo("#section4 .row", { opacity: 0, rotate: -45 }, { opacity: 1, rotate: 0, duration: 1, ease: "power2.out" }),
+            onLeaveBack: () => gsap.fromTo("#section4 .row", { opacity: 1, rotate: 0 }, { opacity: 0, rotate: -45, duration: 1, ease: "power2.out" })
+        });
+
+        ScrollTrigger.create({
+            trigger: "#section5 .row",
+            start: "top 80%",
+            onEnter: () => gsap.fromTo("#section5 .row", { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 1, ease: "power2.out" }),
+            onLeaveBack: () => gsap.fromTo("#section5 .row", { opacity: 1, scale: 1 }, { opacity: 0, scale: 0.5, duration: 1, ease: "power2.out" })
+        });
+
+        ScrollTrigger.create({
+            trigger: "#section6 .row",
+            start: "top 80%",
+            onEnter: () => gsap.fromTo("#section6 .row", { opacity: 0, skewX: 45 }, { opacity: 1, skewX: 0, duration: 1, ease: "power2.out" }),
+            onLeaveBack: () => gsap.fromTo("#section6 .row", { opacity: 1, skewX: 0 }, { opacity: 0, skewX: 45, duration: 1, ease: "power2.out" })
+        });
+
+        ScrollTrigger.create({
+            trigger: "#section7 .row",
+            start: "top 80%",
+            onEnter: () => gsap.fromTo("#section7 .row", { opacity: 0, skewY: 45 }, { opacity: 1, skewY: 0, duration: 1, ease: "power2.out" }),
+            onLeaveBack: () => gsap.fromTo("#section7 .row", { opacity: 1, skewY: 0 }, { opacity: 0, skewY: 45, duration: 1, ease: "power2.out" })
+        });
+
+        ScrollTrigger.create({
+            trigger: "#section8 .row",
+            start: "top 80%",
+            onEnter: () => gsap.fromTo("#section8 .row", { opacity: 0, y: -100 }, { opacity: 1, y: 0, duration: 1, ease: "power2.out" }),
+            onLeaveBack: () => gsap.fromTo("#section8 .row", { opacity: 1, y: 0 }, { opacity: 0, y: -100, duration: 1, ease: "power2.out" })
+        });
+
+        ScrollTrigger.create({
+            trigger: "#section9 .row",
+            start: "top 80%",
+            onEnter: () => gsap.fromTo("#section9 .row", { opacity: 0, scale: 2 }, { opacity: 1, scale: 1, duration: 1, ease: "power2.out" }),
+            onLeaveBack: () => gsap.fromTo("#section9 .row", { opacity: 1, scale: 1 }, { opacity: 0, scale: 2, duration: 1, ease: "power2.out" })
+        });
+
+        ScrollTrigger.create({
+            trigger: "#section9 .row",
+            start: "top 80%",
+            onEnter: () => gsap.fromTo("#section9 .row", { opacity: 0, y: 50, rotate: 20 }, { opacity: 1, y: 0, rotate: 0, duration: 1, ease: "power2.out" }),
+            onLeaveBack: () => gsap.fromTo("#section9 .row", { opacity: 1, y: 0, rotate: 0 }, { opacity: 0, y: 50, rotate: 20, duration: 1, ease: "power2.out" })
+        });
+
+    </script>
+
+    <script>
+
+        // Chart
+        let chartInstance = null;
+        const ctx = document.getElementById('myChart')?.getContext('2d');
+
+        function renderChart() {
+            if (!ctx) return;
+            chartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Task Completion (Pull Requests)', 'Code Commits Productivity Metrics', 'Sucessful Builds'],
+                    datasets: [{
+                        label: 'Productivity Metrics Improvement (%) with Github Copilot',
+                        data: [26.1, 13.6, 38.4],
+                        backgroundColor: ["SteelBlue", "MediumAquamarine", "LightSlateGray"],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    animation: { duration: 1000 },
+                    responsive: true,
+                    scales: { y: { beginAtZero: true } }
+                }
+            });
+        }
+
+        ScrollTrigger.create({
+            trigger: "#section9",
+            start: "top 80%",
+            onEnter: () => { if (!chartInstance) renderChart(); },
+            onLeaveBack: () => {
+                if (chartInstance) {
+                    chartInstance.destroy();
+                    chartInstance = null;
+                }
+            }
+        });
+
+        new bootstrap.ScrollSpy(document.body, {
+            target: '#navbar',
+            offset: 70
+        });
+    </script>
+
+<script>
+
+    // graph object
+    let stackedLine;
+    // context for canvas object
+
+   
+
+    // data config
+    let data = {
+            labels: ['2020-04-26','2020-05-03','2020-05-10','2020-05-17','2020-05-24','2020-05-31','2020-06-07','2020-06-14','2020-06-21','2020-06-28','2020-07-05','2020-07-12','2020-07-19','2020-07-26','2020-08-02','2020-08-09','2020-08-16','2020-08-23','2020-08-30','2020-09-06','2020-09-13','2020-09-20','2020-09-27','2020-10-04','2020-10-11','2020-10-18','2020-10-25','2020-11-01','2020-11-08','2020-11-15','2020-11-22','2020-11-29','2020-12-06','2020-12-13','2020-12-20','2020-12-27','2021-01-03','2021-01-10','2021-01-17','2021-01-24','2021-01-31','2021-02-07','2021-02-14','2021-02-21','2021-02-28','2021-03-07','2021-03-14','2021-03-21','2021-03-28','2021-04-04','2021-04-11','2021-04-18','2021-04-25','2021-05-02','2021-05-09','2021-05-16','2021-05-23','2021-05-30','2021-06-06','2021-06-13','2021-06-20','2021-06-27','2021-07-04','2021-07-11','2021-07-18','2021-07-25','2021-08-01','2021-08-08','2021-08-15','2021-08-22','2021-08-29','2021-09-05','2021-09-12','2021-09-19','2021-09-26','2021-10-03','2021-10-10','2021-10-17','2021-10-24','2021-10-31','2021-11-07','2021-11-14','2021-11-21','2021-11-28','2021-12-05','2021-12-12','2021-12-19','2021-12-26','2022-01-02','2022-01-09','2022-01-16','2022-01-23','2022-01-30','2022-02-06','2022-02-13','2022-02-20','2022-02-27','2022-03-06','2022-03-13','2022-03-20','2022-03-27','2022-04-03','2022-04-10','2022-04-17','2022-04-24','2022-05-01','2022-05-08','2022-05-15','2022-05-22','2022-05-29','2022-06-05','2022-06-12','2022-06-19','2022-06-26','2022-07-03','2022-07-10','2022-07-17','2022-07-24','2022-07-31','2022-08-07','2022-08-14','2022-08-21','2022-08-28','2022-09-04','2022-09-11','2022-09-18','2022-09-25','2022-10-02','2022-10-09','2022-10-16','2022-10-23','2022-10-30','2022-11-06','2022-11-13','2022-11-20','2022-11-27','2022-12-04','2022-12-11','2022-12-18','2022-12-25','2023-01-01','2023-01-08','2023-01-15','2023-01-22','2023-01-29','2023-02-05','2023-02-12','2023-02-19','2023-02-26','2023-03-05','2023-03-12','2023-03-19','2023-03-26','2023-04-02','2023-04-09','2023-04-16','2023-04-23','2023-04-30','2023-05-07','2023-05-14','2023-05-21','2023-05-28','2023-06-04','2023-06-11','2023-06-18','2023-06-25','2023-07-02','2023-07-09','2023-07-16','2023-07-23','2023-07-30','2023-08-06','2023-08-13','2023-08-20','2023-08-27','2023-09-03','2023-09-10','2023-09-17','2023-09-24','2023-10-01','2023-10-08','2023-10-15','2023-10-22','2023-10-29','2023-11-05','2023-11-12','2023-11-19','2023-11-26','2023-12-03','2023-12-10','2023-12-17','2023-12-24','2023-12-31','2024-01-07','2024-01-14','2024-01-21','2024-01-28','2024-02-04','2024-02-11','2024-02-18','2024-02-25','2024-03-03','2024-03-10','2024-03-17','2024-03-24','2024-03-31','2024-04-07','2024-04-14','2024-04-21','2024-04-28','2024-05-05','2024-05-12','2024-05-19','2024-05-26','2024-06-02','2024-06-09','2024-06-16','2024-06-23','2024-06-30','2024-07-07','2024-07-14','2024-07-21','2024-07-28','2024-08-04','2024-08-11','2024-08-18','2024-08-25','2024-09-01','2024-09-08','2024-09-15','2024-09-22','2024-09-29','2024-10-06','2024-10-13','2024-10-20','2024-10-27','2024-11-03','2024-11-10','2024-11-17','2024-11-24','2024-12-01','2024-12-08','2024-12-15','2024-12-22','2024-12-29','2025-01-05','2025-01-12','2025-01-19','2025-01-26','2025-02-02','2025-02-09','2025-02-16','2025-02-23','2025-03-02','2025-03-09','2025-03-16','2025-03-23','2025-03-30','2025-04-06','2025-04-13','2025-04-20','2025-04-27'
+],
+            datasets: [{
+                label: 'Search Interest', // series name
+                data: [5,5,5,4,5,4,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,4,4,5,6,4,5,4,4,5,4,4,4,4,4,4,4,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,4,4,5,4,4,4,4,5,5,5,5,5,5,5,5,6,5,5,4,5,5,5,5,6,6,6,6,6,6,6,5,6,7,6,7,7,6,7,6,6,5,8,13,9,8,7,7,8,8,9,10,10,9,10,10,10,10,10,10,10,10,10,10,10,10,11,17,30,21,16,14,16,18,18,21,23,27,25,23,25,23,25,30,33,32,36,59,48,43,41,42,40,36,36,41,36,36,34,41,42,38,34,35,38,33,34,34,38,37,40,43,47,45,43,48,48,49,41,54,50,48,41,33,39,43,44,59,53,49,52,54,55,55,52,53,50,50,51,54,56,52,52,59,57,60,57,53,51,51,46,50,47,49,47,49,50,54,57,57,62,63,68,71,69,69,73,69,70,77,79,64,81,89,74,55,59,72,74,81,94,89,86,87,100,90,90,85,93,92,91,89,93,95],
+                fill: false,
+                borderColor: 'rgb(75, 192, 192)',
+                tension: 0.1
+            }]
+        };
+         // generic config
+    let config = {
+                type: 'line',
+                data: data,
+                options: {
+                    scales: {
+                        y: {
+                            stacked: true
+                        }
+                    }
+                }
+            };
+
+
+
+    // wait for everything to be loaded
+    document.addEventListener("DOMContentLoaded", () => {
+
+        // grab convas object
+        ctx_line = document.getElementById("graph1").getContext('2d');
+        // actual graph js object
+        stackedLine = new Chart(ctx_line,config);
+    })
+
+    function reloadGraph() {
+        // destroy object
+        if (stackedLine) {
+            stackedLine.destroy();
+        }
+        // recreate object
+        stackedLine = new Chart(ctx_line,config);
+    }
+    ScrollTrigger.create({
+            trigger: "#section4",
+            start: "top 80%",
+            onEnter: () => { if (!stackedLine) reloadGraph(); },
+            onLeaveBack: () => {
+                if (stackedLine) {
+                    stackedLine.destroy();
+                    stackedLine = null;
+                }
+            }
+        });
+
+        new bootstrap.ScrollSpy(document.body, {
+            target: '#navbar',
+            offset: 70
+        });
+
+
+
+
+
+</script>
+<script>
+    function showInfo(bubbleId) {
+    // Hide info sections
+    document.getElementById("info-box").style.display = "block"; 
+    //This bubble section is derived from the Overtourism example shown in class.
+    //It does not show the author's name on the files, but I give credit to that student for providing a base.
+    // info for each bubble
+    const info = {
+        bubble1: {
+            title: "AI in Schools",
+            description: "AI has exploded in use by students both for helping on assignments, and cheating. The percent of teachers who have had to discipline students for AI use increased from 48% to 64% between 2023 and 2024.",
+            link:"https://cdt.org/wp-content/uploads/2024/03/2024-03-21-CDT-Civic-Tech-Generative-AI-Survey-Research-final.pdf"
+        },
+        bubble2: {
+            title: "AI and Art",
+            description: "Ever since the rise of AI image generators, questions of ethics have been up in the air. AI image generators rely on the work of millions of artists, while simultaneously taking their jobs.",
+            link:"https://hbr.org/2024/11/research-how-gen-ai-is-already-impacting-the-labor-market"
+        },
+        bubble3: {
+            title: "Personal AI Use",
+            description: "AI Use moved away from productive and recreational uses, and more towards therapy, personal advice, and companionship.",
+            link:"https://hbr.org/2025/04/how-people-are-really-using-gen-ai-in-2025"
+        }
+    };
+
+    // set information based on clicked bubble
+    document.getElementById("info-title").innerText = info[bubbleId].title;
+    document.getElementById("info-description").innerText = info[bubbleId].description;
+    document.getElementById("info-link").href = info[bubbleId].link;
+}
+</script>
+<script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');
+    });
+</script>
+</body>
+
+</html>

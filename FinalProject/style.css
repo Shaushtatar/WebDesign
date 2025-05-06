@@ -1,0 +1,184 @@
+*{
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    font-family: 'Poppins', sans-serif;
+    z-index: 1000;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+.slide{
+  background-color:#484A47
+}
+#section1{
+  background-image:url(binary.gif)
+}
+.final{
+  background:black;
+}
+
+.title {
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#F2E2D2;
+    /* ✅ FIX */
+    gap: 0.5rem;
+    text-align: center;
+    /* ✅ FIX */
+}
+
+.paragraph, li, a {
+  font-family:'Quantico', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color:#4285F4;
+}
+a:hover{
+  color:azure;
+}
+.uncontained-image:hover{
+  transform:scale(1.1);
+  transition: all 0.5s;
+}
+.timeline-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN0YXJyeSUyMHNreXxlbnwwfHwwfHx8MA%3D%3D");
+  }
+
+  .timeline {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    padding-left: 50vw;  /* Empty space on the left */
+    padding-right: 50vw; /* Empty space on the right */
+    gap: 100px;
+  }
+
+  .timeline-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #0B3D91;
+    z-index: -1;
+  }
+
+  .event {
+    position: relative;
+    width: 300px;
+    background-color: #0B3D91;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+
+  .event img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .event-content {
+    padding: 15px;
+  }
+
+  .event-title {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .event-date {
+    font-size: 0.9rem;
+    color: #c8e6c9;
+    margin: 5px 0;
+  }
+
+  .event-description {
+    font-size: 0.95rem;
+    margin-top: 10px;
+  }
+  .carousel-item img {
+    margin:auto;
+    height: 500px;
+  }
+
+
+  .carousel-caption{
+    background-color: rgba(0,0,0,.3);
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-color: rgba(0,0,0,.3);
+  }
+
+  /*This section is all based on the overtourism example on brightspace, edited to fit my webpage's style. 
+  It doesn't seem to list the name of the student who made it anywhere, but credit to them.*/
+  .bubbles-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.bubble {
+    background-color: #4285F4;
+    color: #F2E2D2;
+    /*border-radius: 50%;*/
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: 10px;
+}
+
+.bubble:hover {
+    transform: scale(1.1);
+    background-color: #4285F4;
+}
+
+.info-box {
+    display: none;
+    margin-top: 30px;
+    background-color: #fff;
+    color: #8fc7ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+/*End of section*/
