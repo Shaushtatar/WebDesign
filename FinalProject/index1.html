@@ -259,9 +259,20 @@
 
 
     <!-- Scripts -->
-    <script>
-        gsap.registerPlugin(ScrollTrigger);
 
+    <script>
+        gsap.set("#section1 .row", { opacity: 0, y: 100 });
+        gsap.set("#section2 .row", { opacity: 0, x: -100 });
+        gsap.set("#section2 li", { opacity: 0, y: 20 });
+        gsap.set("#section3 .row", { opacity: 0, x: 100 });
+        gsap.set("#section4 .row", { opacity: 0, rotate: -45 });
+        gsap.set("#section5 .row", { opacity: 0, scale: 0.5 });
+        gsap.set("#section6 .row", { opacity: 0, skewX: 45 });
+        gsap.set("#section7 .row", { opacity: 0, skewY: 45 });
+        gsap.set("#section9 .row", { opacity: 0, scale: 2 });
+        gsap.registerPlugin(ScrollTrigger);
+        //https://gsap.com/docs/v3/GSAP/gsap.set()/
+        //I used this so that the pages would transition correctly
         // textillate setup
         let tlt = $('.tlt');
         tlt.textillate({ in: { effect: 'flash' },out: { effect: 'fadeOutDown' }, autoStart: false });
