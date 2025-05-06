@@ -53,14 +53,13 @@
                 <ul class="navbar-nav ms-auto">
                     <!-- Nav links -->
                     <li class="nav-item"><a class="nav-link" href="#section1">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section2">Section 2</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section3">Section 3</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section4">Section 4</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section5">Section 5</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section6">Section 6</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section7">Section 7</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section8">Section 8</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section9">Section 9</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section2">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section4">Search Trends</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section5">AI Geopolitics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section6">AI Competence</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section7">Other Impacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section9">AI Productivity</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
                 </ul>
             </div>
         </div>
@@ -333,13 +332,6 @@
             start: "top 80%",
             onEnter: () => gsap.fromTo("#section7 .row", { opacity: 0, skewY: 45 }, { opacity: 1, skewY: 0, duration: 1, ease: "power2.out" }),
             onLeaveBack: () => gsap.fromTo("#section7 .row", { opacity: 1, skewY: 0 }, { opacity: 0, skewY: 45, duration: 1, ease: "power2.out" })
-        });
-
-        ScrollTrigger.create({
-            trigger: "#section8 .row",
-            start: "top 80%",
-            onEnter: () => gsap.fromTo("#section8 .row", { opacity: 0, y: -100 }, { opacity: 1, y: 0, duration: 1, ease: "power2.out" }),
-            onLeaveBack: () => gsap.fromTo("#section8 .row", { opacity: 1, y: 0 }, { opacity: 0, y: -100, duration: 1, ease: "power2.out" })
         });
 
         ScrollTrigger.create({

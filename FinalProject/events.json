@@ -1,24 +1,87 @@
 [
     {
-      "title": "Apollo 11 Launch",
-      "date": "July 16, 1969",
-      "description": "Apollo 11 was launched from Kennedy Space Center aboard a Saturn V rocket.",
-      "image": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F14_625.jpg",
-      "link": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F14_625.jpg"
+      "title": "Turing's Learning Machine",
+      "date": "1950",
+      "description": "Alan Turing proposes a 'learning machine' that could learn and become artificially intelligent.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Alan_Turing_%281951%29.jpg",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Alan_Turing_%281951%29.jpg"
     },
     {
-      "title": "Translunar Injection",
-      "date": "July 16, 1969",
-      "description": "The spacecraft performed a maneuver to set it on course toward the Moon.",
-      "image": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F23_625.jpg",
-      "link": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F23_625.jpg"
+      "title": "First Neural Network Machine",
+      "date": "1951",
+      "description": "Marvin Minsky and Dean Edmonds build the first neural network machine.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Single-layer_feedforward_artificial_neural_network.png",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/3/32/Single-layer_feedforward_artificial_neural_network.png"
     },
     {
-      "title": "Entering Lunar Orbit",
-      "date": "July 19, 1969",
-      "description": "Apollo 11 entered the Moon's orbit after traveling approximately 240,000 miles.",
-      "image": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F34_625.jpg",
-      "link": "http://www.workingonthemoon.com/ALLMS/Img_625/P01_F34_625.jpg"
+      "title": "Arthur Samuel's Checkers Robot",
+      "date": "1955",
+      "description": "Arthur Samuel creates early AI, capable of learning checkers.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/International_draughts.jpg",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/3/30/International_draughts.jpg"
+    },
+    {
+      "title": "First Industrial Robot",
+      "date": "1961",
+      "description": "Unimate, the earliest industrial robot, debuts at General Motors.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Unimate_pouring_coffee_for_a_woman_at_Biltmore_Hotel%2C_1967.jpg/1024px-Unimate_pouring_coffee_for_a_woman_at_Biltmore_Hotel%2C_1967.jpg",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Unimate_pouring_coffee_for_a_woman_at_Biltmore_Hotel%2C_1967.jpg/1024px-Unimate_pouring_coffee_for_a_woman_at_Biltmore_Hotel%2C_1967.jpg"
+    },
+    {
+      "title": "ELIZA",
+      "date": "1965",
+      "description": "Joseph Weizenbaum builds ELIZA, an early chatbot.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/ELIZA_conversation.png",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/7/79/ELIZA_conversation.png"
+    },
+    {
+      "title": "Deep Blue Defeats Kasparov",
+      "date": "1997",
+      "description": "Deep Blue, a Chess-playing AI, defeats world champion Gary Kasparov in a game of Chess.",
+      "image": "https://images.chesscomfiles.com/uploads/v1/blog/913137.2ef9bc48.668x375o.fca7a75c3227@2x.png",
+      "link": "https://images.chesscomfiles.com/uploads/v1/blog/913137.2ef9bc48.668x375o.fca7a75c3227@2x.png"
+    },
+    {
+      "title": "Deep Learning Revolution",
+      "date": "2012",
+      "description": "Deep Learning becomes the primary training method after the success of AlexNet, a Deep Learning algorithm developed by Alex Krizhevsky.",
+      "image": "https://static.aminer.cn/upload/avatar/1320/112/1867/53f433bfdabfaec22ba66fb5_0.png",
+      "link": "https://static.aminer.cn/upload/avatar/1320/112/1867/53f433bfdabfaec22ba66fb5_0.png"
+    },
+    {
+      "title": "DeepFace",
+      "date": "2014",
+      "description": "Facebook researchers reveal DeepFace, an algorithm that recognizes faces with over 97% accuracy.",
+      "image": "https://raw.githubusercontent.com/serengil/deepface/master/icon/deepface-icon-labeled.png",
+      "link": "https://raw.githubusercontent.com/serengil/deepface/master/icon/deepface-icon-labeled.png"
+    },
+    {
+      "title": "GPT Developed",
+      "date": "2018",
+      "description": "OpenAI develops the generative pre-trained transformer (GPT) framework for large-language models",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Full_GPT_architecture.svg/800px-Full_GPT_architecture.svg.png",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Full_GPT_architecture.svg/800px-Full_GPT_architecture.svg.png"
+    },
+    {
+      "title": "Protein-predicting AI",
+      "date": "2018",
+      "description": "AlphaFold develops a highly accurate AI for predicting protein structure",
+      "image": "https://alphafold.ebi.ac.uk/assets/img/Q8W3K0.png",
+      "link": "https://alphafold.ebi.ac.uk/assets/img/Q8W3K0.png"
+    },
+    {
+      "title": "OpenAI releases DALL-E 2 to public",
+      "date": "September 2022",
+      "description": "DALL-E 2 shows unprecedented image generation capabilities to the public.",
+      "image": "https://api.time.com/wp-content/uploads/2022/11/best-inventions-2022-OpenAI-DALL-E-2.jpg",
+      "link": "https://api.time.com/wp-content/uploads/2022/11/best-inventions-2022-OpenAI-DALL-E-2.jpg"
+    },
+    {
+      "title": "ChatGPT Debut",
+      "date": "November 2022",
+      "description": "ChatGPT debuts, resulting in a massive increase in interest around AI language models",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png"
     }
   ]
-  
+

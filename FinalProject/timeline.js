@@ -52,3 +52,7 @@ function initializeScrollTrigger() {
         },
     });
 }
+  /*This timeline was made using these two Wikipedia pages:
+  https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence
+  https://en.wikipedia.org/wiki/Timeline_of_machine_learning
+  */
