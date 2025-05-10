@@ -243,7 +243,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-4 mt-5">
+    <footer class="bg-dark text-white text-center py-4 mt-0">
         <div class="container">
             <p class="mb-1">&copy; 2025 William Harris</p>
             <p class="mb-0 small">Made in DiDa 280W</p>
@@ -304,13 +304,6 @@
             
             onLeaveBack: () => gsap.fromTo("#section2 .row", { opacity: 1, x: 0 }, { opacity: 0, x: -100, duration: 1, ease: "power2.out" })
         });
-        
-        ScrollTrigger.create({
-            trigger: "#section3 .row",
-            start: "top 80%",
-            onEnter: () => gsap.fromTo("#section3 .row", { opacity: 0, x: 100 }, { opacity: 1, x: 0, duration: 1, ease: "power2.out" }),
-            onLeaveBack: () => gsap.fromTo("#section3 .row", { opacity: 1, x: 0 }, { opacity: 0, x: 100, duration: 1, ease: "power2.out" })
-        });
 
         ScrollTrigger.create({
             trigger: "#section4 .row",
@@ -335,8 +328,8 @@
 
         ScrollTrigger.create({
             trigger: "#section7 .row",
-            start: "top 70%",
-            onEnter: () => gsap.fromTo("#section7 .row", { opacity: 0, skewY: 45 }, { opacity: 1, skewY: 0, duration: 1, ease: "power2.out" }),
+            start: "top 60%",
+            onEnter: () => gsap.fromTo("#section7 .row", { opacity: 0, skewY: 45 }, { opacity: 1, skewY: 0, duration: 1.5, ease: "power2.out" }),
             onLeaveBack: () => gsap.fromTo("#section7 .row", { opacity: 1, skewY: 0 }, { opacity: 0, skewY: 45, duration: 1, ease: "power2.out" })
         });
 
